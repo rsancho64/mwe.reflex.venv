@@ -1,5 +1,8 @@
 APPNAME = app0
 
+saluda:
+	echo $(APPNAME)
+
 eco:
 	echo $(APPNAME)/ >> .gitignore
 	echo $(APPNAME)/.web/ >> .gitignore
