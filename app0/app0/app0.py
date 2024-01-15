@@ -3,11 +3,13 @@ import reflex as rx
 
 
 class State(rx.State):
-    countTomates: int = 0
-    countPatatas: int = 0
 
-    def incrementTomates(self):
-        self.countTomates += 1
+    itemName = ["tomates", "patatas", "cebollas"]
+    count = [0,0,0,]
+
+
+    def incrementTomates(self, pos):
+        self.count[pos] += 1
 
     def decrementTomates(self):
         self.countTomates -= 1
