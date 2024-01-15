@@ -81,8 +81,9 @@ def index():
             ),
         ),
         # # spacing="1em",
-                
+
     )
+
 
 app = rx.App()
 app.add_page(index)
