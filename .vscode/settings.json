@@ -1,0 +1,5 @@
+{
+    "editor.detectIndentation": false
+    // Tip to prevent automatic activation of a selected environment: add
+    //"python.terminal.activateEnvironment": false 
+}
